@@ -18,11 +18,11 @@ static char args_doc[] = "ARG1";
 
 static struct argp_option options[] = {
     {"verbose",  'v', 0, 0, "Produce verbose output"},
-    {"name",     'n', "Name", 0},
-    {"content",  'c', "CONTENT", 0},
-    {"id",       'i', "UUID", 0},
-    {"server",   's', "SERVER", 0},
-    {"port",     'p', "PORT", 0},
+    {"name",     'n', "Name", 0, "Paste name"},
+    {"content",  'c', "CONTENT", 0, "Paste content"},
+    {"id",       'i', "UUID", 0, "PasteId for fetching the paste"},
+    {"server",   's', "SERVER", 0, "server ip"},
+    {"port",     'p', "PORT", 0, "server port"},
     {0}
 };
 
